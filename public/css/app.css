@@ -1,0 +1,157 @@
+.navigate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 7vh;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.navigate .nav-links {
+  display: flex;
+  padding-right: 2rem;
+}
+
+.navigate .nav-links ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navigate .nav-links ul li {
+  list-style: none;
+  padding-right: 1rem;
+}
+
+.navigate .nav-links ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navigate .nav-links ul li .resume {
+  border: 1px solid black !important;
+  padding: 0.5rem;
+}
+
+.navigate .logo {
+  padding-left: 2rem;
+}
+
+.hero {
+  height: 100vh;
+  margin: 0rem 14rem;
+}
+
+.hero .hero-intro {
+  padding-top: 10rem;
+  padding-bottom: 1.2rem;
+}
+
+.hero h2 {
+  font-size: 3rem;
+}
+
+.hero .hero-text {
+  padding-top: 3rem;
+  font-size: 1.2rem;
+}
+
+.hero .hero-contact {
+  padding-top: 4rem;
+}
+
+.hero .hero-contact a {
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 1rem 3rem;
+}
+
+.about {
+  height: 100vh;
+  margin: 2rem 14rem;
+}
+
+.about h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.about .about-grid {
+  display: grid;
+  grid-row-gap: 3rem;
+  grid-column-gap: 0.7rem;
+  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+}
+
+.about .about-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 30rem;
+}
+
+.about .about-image-Container {
+  width: 100%;
+  height: 30rem;
+}
+
+.about .about-text p {
+  font-size: 1rem;
+}
+
+.about .about-text ul {
+  padding-left: 1rem;
+}
+
+.work-section {
+  height: 100vh;
+  margin: 2rem 14rem;
+}
+
+.work-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.work-section .work-grid {
+  display: grid;
+  grid-row-gap: 3rem;
+  grid-column-gap: 0.7rem;
+  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+}
+
+.contact {
+  height: 100vh;
+  margin: 2rem 14rem;
+}
+
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  height: 7vh;
+  background: grey;
+}
+
+footer p {
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
