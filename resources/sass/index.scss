@@ -19,10 +19,10 @@
                 padding-right:1rem;
                 a{
                     text-decoration:none;
-                    color:black;
+                    color:white;
                 }
                 .resume{
-                    border:1px solid black !important;
+                    border:1px solid white;
                     padding:0.5rem;
                 }
             }
@@ -36,23 +36,30 @@
 .hero{
     height:100vh;
     margin:0rem 14rem;
+    font-family: 'Playfair Display', serif;
     .hero-intro{
         padding-top:10rem;
         padding-bottom:1.2rem;
+       
     }
     h2{
-        font-size:3rem;
+        font-size:4.1rem;
+        letter-spacing: 4.5px;
     }
     .hero-text{
         padding-top:3rem;
         font-size:1.2rem;
+        // font-size:4.1rem;
+        // font-family: 'Playfair Display', serif;
+        // font-weight:400;
+        // letter-spacing:1.5px;
     }
     .hero-contact{
         padding-top:4rem;
         a{
             text-decoration:none;
-            color:black;
-            border:1px solid black;
+            color:white;
+            border:1px solid white;
             padding:1rem 3rem;
 
         }
@@ -74,7 +81,7 @@
     }
 
     .about-img{
-        object-fit:contain;
+        object-fit:cover;
         width:100%;
         height:30rem;
    }
@@ -85,6 +92,7 @@
    .about-text{
         p{
             font-size:1rem;
+            line-height:1.5;
         }
         ul{
             padding-left:1rem;
@@ -93,8 +101,9 @@
 
 }
 .work-section{
-    height:100vh;
+    // height:100vh;
     margin:2rem 14rem;
+    padding-bottom:300px;
     h2{
         font-size:2rem;
         margin-bottom:2rem;
@@ -104,12 +113,20 @@
         display:grid;
         grid-row-gap:3rem;
         grid-column-gap:0.7rem;
-        grid-template-columns:repeat(auto-fill, minmax(410px,1fr));
-    }
+        grid-template-columns:repeat(auto-fill, minmax(410px,1fr));    
+   }
+   .work-image-container{
+       .work-img{
+        object-fit:contain;
+        width:100%;
+        height:30rem;
+       }
+   }
 }
 .contact{
-    height:100vh;
+    // height:100vh;
     margin:2rem 14rem;
+    // padding-top:50rem;
     h2{
         font-size:2rem;
         margin-bottom:2rem;
