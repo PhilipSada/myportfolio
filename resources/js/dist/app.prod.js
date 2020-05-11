@@ -1,1 +1,1 @@
-"use strict";require("./bootstrap"),require("./smooth-scroll");
+"use strict";require("./bootstrap"),require("./smooth-scroll"),require("./animations/pages");

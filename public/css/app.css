@@ -94,7 +94,8 @@
 
 .about {
   height: 100vh;
-  margin: 4rem 14rem;
+  margin: 7rem 14rem;
+  opacity: 0;
 }
 
 .about h2 {
@@ -129,6 +130,7 @@
 .work-section {
   margin: 2rem 14rem;
   padding-bottom: 300px;
+  opacity: 0;
 }
 
 .work-section h2 {
@@ -203,6 +205,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  opacity: 0;
 }
 
 .contact h2 {
