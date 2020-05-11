@@ -22,6 +22,7 @@
                     text-decoration:none;
                     color:white;
                     font-size:0.9rem;
+                    cursor: pointer;
                 }
                 .resume{
                     border:1px solid white;
@@ -75,6 +76,7 @@
             border:1px solid white;
             padding:1rem 3rem;
             transition:background-color 0.5s ease;
+            cursor: pointer;
             &:hover{
                 background-color:rgba(112, 128, 144, 0.582);
                 border:1px solid transparent;

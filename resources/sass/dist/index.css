@@ -29,6 +29,7 @@
   text-decoration: none;
   color: white;
   font-size: 0.9rem;
+  cursor: pointer;
 }
 
 .navigate .nav-links ul li .resume {
@@ -83,6 +84,7 @@
   border: 1px solid white;
   padding: 1rem 3rem;
   transition: background-color 0.5s ease;
+  cursor: pointer;
 }
 
 .hero .hero-contact a:hover {

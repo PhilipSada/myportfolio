@@ -16,10 +16,10 @@
             <div class="logo"><a href="/">PS</a></div>
             <div class="nav-links">
                 <ul>
-                    <li><a href="#" class="about-link">About</a></li>
-                    <li><a href="#" class="work-link">Work</a></li>
-                    <li><a href="#" class="contact-link">Contact</a></li>
-                    <li><a href="" class="resume">Resume</a></li>
+                    <li><a class="about-link">About</a></li>
+                    <li><a class="work-link">Work</a></li>
+                    <li><a class="contact-link">Contact</a></li>
+                    <li><a class="resume">Resume</a></li>
                 </ul>
             </div>
         </nav>

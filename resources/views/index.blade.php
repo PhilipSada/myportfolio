@@ -11,7 +11,7 @@
     <div class="hero-text">
        <p>I'm a web developer who is very passionate about building <br> high quality web applications</p>
     </div>
-    <div class="hero-contact"><a href="#" class="hero-contact-link">Get In Touch</a></div>
+    <div class="hero-contact"><a class="hero-contact-link">Get In Touch</a></div>
 </div>
 <div class="about" id="about-me">
    <h2>About Me</h2>
