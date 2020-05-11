@@ -13,6 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+Route::get('/', 'IndexController@show');
+Route::get('/contact', 'IndexController@viewMail');
+Route::post('/contact', 'IndexController@sendMail');
+Route::get('/mail-received', 'IndexController@mailReceived');

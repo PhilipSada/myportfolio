@@ -11,6 +11,7 @@
 .navigate .nav-links {
   display: flex;
   padding-right: 2rem;
+  padding-top: 1rem;
 }
 
 .navigate .nav-links ul {
@@ -27,15 +28,27 @@
 .navigate .nav-links ul li a {
   text-decoration: none;
   color: white;
+  font-size: 0.9rem;
 }
 
 .navigate .nav-links ul li .resume {
   border: 1px solid white;
   padding: 0.5rem;
+  transition: background-color 0.5s ease;
+}
+
+.navigate .nav-links ul li .resume:hover {
+  background-color: rgba(112, 128, 144, 0.582);
+  border: 1px solid transparent;
 }
 
 .navigate .logo {
   padding-left: 2rem;
+}
+
+.navigate .logo a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
 }
 
 .hero {
@@ -57,6 +70,7 @@
 .hero .hero-text {
   padding-top: 3rem;
   font-size: 1.2rem;
+  line-height: 1.5;
 }
 
 .hero .hero-contact {
@@ -68,16 +82,23 @@
   color: white;
   border: 1px solid white;
   padding: 1rem 3rem;
+  transition: background-color 0.5s ease;
+}
+
+.hero .hero-contact a:hover {
+  background-color: rgba(112, 128, 144, 0.582);
+  border: 1px solid transparent;
 }
 
 .about {
   height: 100vh;
-  margin: 2rem 14rem;
+  margin: 4rem 14rem;
 }
 
 .about h2 {
   margin-bottom: 2rem;
   font-size: 2rem;
+  font-family: 'Playfair Display', serif;
 }
 
 .about .about-grid {
@@ -88,13 +109,8 @@
 }
 
 .about .about-img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 30rem;
-}
-
-.about .about-image-Container {
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 100%;
   height: 30rem;
 }
@@ -116,13 +132,60 @@
 .work-section h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding-bottom: 4rem;
 }
 
 .work-section .work-grid {
   display: grid;
-  grid-row-gap: 3rem;
+  grid-row-gap: 5rem;
   grid-column-gap: 0.7rem;
   grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+}
+
+.work-section .work-text {
+  border: 1px solid transparent;
+  background-color: rgba(112, 128, 144, 0.582);
+}
+
+.work-section .work-text .work-description {
+  padding-left: 2rem;
+}
+
+.work-section .work-text .work-description p {
+  line-height: 1.4;
+}
+
+.work-section .work-links {
+  padding-top: 4rem;
+  padding-left: 2rem;
+}
+
+.work-section .work-links .github {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.712);
+  margin-top: 2rem;
+  transition: background-color 0.5s ease;
+}
+
+.work-section .work-links .github:hover {
+  background-color: rgba(0, 0, 0, 0.87);
+}
+
+.work-section .work-links .project {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.712);
+  margin-top: 2rem;
+  transition: background-color 0.5s ease;
+}
+
+.work-section .work-links .project:hover {
+  background-color: rgba(0, 0, 0, 0.87);
 }
 
 .work-section .work-image-container .work-img {
@@ -134,16 +197,72 @@
 
 .contact {
   margin: 2rem 14rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .contact h2 {
   font-size: 2rem;
   margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+.contact .card {
+  width: 150%;
+}
+
+.contact label {
+  font-size: 0.9rem;
+  padding-bottom: 0.7rem;
+  color: black;
+}
+
+.contact .card-header {
+  background-color: rgba(112, 128, 144, 0.582);
+}
+
+.contact .contact-submit {
+  text-decoration: none;
+  color: white;
+  padding: 0.9rem 2.3rem;
+  background-color: slategray;
+  border: 1px solid transparent;
+  transition: all .8s ease;
+  font-size: 0.8rem;
+}
+
+#thanks-page {
+  height: 100vh;
+  padding-top: 200px;
+}
+
+.content-box {
+  padding: 20px;
+}
+
+.content-box h2 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.back-to-home {
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.back-to-home a {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgba(112, 128, 144, 0.582);
+  margin-top: 2rem;
 }
 
 footer {
   height: 7vh;
-  background: grey;
 }
 
 footer p {
