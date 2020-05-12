@@ -436,13 +436,13 @@ footer p {
   }
 
   .about {
-    overflow-x: hidden !important;
     margin-left: 0rem;
     margin-right: 0rem;
     padding-top: 2rem;
     padding-left: 0rem;
     padding-right: 0rem;
     margin-bottom: 5rem;
+    height: 1000px;
   }
 
   .about h2 {
@@ -606,6 +606,10 @@ footer p {
 
   .content-box h2 {
     font-size: 1.8rem;
+  }
+
+  footer p {
+    font-size: 1rem;
   }
 }
 

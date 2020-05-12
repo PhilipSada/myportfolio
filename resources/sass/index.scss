@@ -432,13 +432,14 @@ footer{
    
 }
 .about{
-    overflow-x: hidden !important;
+    // overflow-x: hidden !important;
     margin-left:0rem;
     margin-right:0rem;
     padding-top:2rem;
     padding-left:0rem;
     padding-right:0rem;
     margin-bottom:5rem;
+    height:1000px;
     h2{
         margin-bottom:2rem;
         font-size:1.8rem;
@@ -581,6 +582,11 @@ footer{
        
     }
 }  
+footer{
+    p{
+        font-size:1rem;
+    }
+}
 }
 @media (min-width: 371px) and (max-width: 500px) {
     .navigate{
