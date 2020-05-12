@@ -9,7 +9,10 @@
     <h2>I create things for the web</h2>
 
     <div class="hero-text">
-       <p>I'm a web developer who is very passionate about building <br> high quality web applications</p>
+       <p>I'm a web developer who is very passionate about building <br> high quality web applications.</p>
+    </div>
+    <div class="hero-text-1">
+       <p>I'm a web developer who is very passionate about building high quality web applications.</p>
     </div>
     <div class="hero-contact"><a class="hero-contact-link">Get In Touch</a></div>
 </div>
@@ -39,10 +42,10 @@
 <div class="work-section" id="work">
    <h2>Things I've Built</h2>
    <div class="work-grid">
-       <div class="work-image-container">
+       <div class="work-image-container image-container-1">
            <a href="https://freshmann.net" target="_blank"><img src="/images/ecommerce.png" class="work-img" alt="project-1"></a>
        </div>
-       <div class="work-text">
+       <div class="work-text work-text-1">
            <h4 class="work-title"></h4>
            <div class="work-description">
                <p>An ecommerce website with a focus on menswear. Some of the main features of this website include a shopping cart,
@@ -62,10 +65,10 @@
                <a href="https://freshmann.net" class="project" target="_blank">View Project</a>
            </div>
        </div>
-       <div class="work-text">
+       <div class="work-text work-text-2">
            <h4 class="work-title"></h4>
            <div class="work-description">
-               <p>A furniture website. Some of the main features include page animations, a contact form with validation, a mailing system to
+               <p>A furniture website. Some of the main features include page and scroll animations, a contact form with validation, a mailing system to
                  receive emails from customers once they have submitted the contact form.
                </p>
                <p>Technologies used:</p>
@@ -84,13 +87,35 @@
                <a href="https://furniturebarnng.com" class="project" target="_blank">View Project</a>
            </div>
        </div>
-       <div class="work-image-container">
+       <div class="work-image-container image-container-2">
            <a href="https://furniturebarnng.com" target="_blank"><img src="/images/furniture.png" class="work-img" alt="project-1"></a>
        </div>
-       <div class="work-image-container">
+       <div class="work-text mobile-text">
+        <h4 class="work-title"></h4>
+        <div class="work-description">
+            <p>A furniture website. Some of the main features include page and scroll animations, a contact form with validation, a mailing system to
+              receive emails from customers once they have submitted the contact form.
+            </p>
+            <p>Technologies used:</p>
+            <ul>
+                <li>HTML & (S)CSS</li>
+                <li>Javascript(ES6+)</li>
+                <li>GSAP</li>
+                <li>Barbajs</li>
+                <li>Scroll Magic</li>
+                <li>PHP Laravel</li>
+                <li>MYSQL</li>
+            </ul>
+        </div>
+        <div class="work-links">
+            <a href="https://github.com/PhilipSada/FURNITUREBARN" class="github" target="_blank">Github</a>
+            <a href="https://furniturebarnng.com" class="project" target="_blank">View Project</a>
+        </div>
+    </div>
+       <div class="work-image-container image-container-3">
            <a href="https://www.yummiep.com" target="_blank"><img src="/images/restaurant.png" class="work-img" alt="project-1"></a>
        </div>
-       <div class="work-text">
+       <div class="work-text work-text-3">
            <h4 class="work-title"></h4>
            <div class="work-description">
                <p>A fast-food restaurant website. Some of the main features include page animations, a contact form with validation, a mailing system to receive

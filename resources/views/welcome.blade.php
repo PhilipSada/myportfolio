@@ -22,7 +22,24 @@
                     <li><a  href="/files/PHILIPSADACV.pdf" target="_blank" class="resume">Resume</a></li>
                 </ul>
             </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
         </nav>
+        <div class="navigation-menu-wrapper">
+            <div class="navigation-menu">
+                <div class="navigation-close">Close</div>
+                 <ul>
+                    <li><a class="about-link">About</a></li>
+                    <li><a class="work-link">Work</a></li>
+                    <li><a class="contact-link">Contact</a></li>
+                    <li><a  href="/files/PHILIPSADACV.pdf" target="_blank" class="resume">Resume</a></li>
+                 </ul>
+            </div>
+        </div>
+        
         @yield('content')
        
          <footer>
