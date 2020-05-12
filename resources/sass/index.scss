@@ -397,9 +397,10 @@ footer{
     }
   }
   .hero{
-    margin-left:8rem;
-    margin-right:8rem;
-    margin-bottom:8rem;
+    margin:0rem 0rem;
+    padding-left:2rem;
+    padding-right:2rem;
+    padding-bottom:8rem;
     .hero-intro{
         padding-top:10rem;
         padding-bottom:1.2rem;
@@ -416,7 +417,7 @@ footer{
         // line-height: 1.5;
     }
     .hero-text-1{
-        display:block;
+        display:none;
         padding-top:3rem;
         font-size:1.2rem;
         line-height: 1.5;
@@ -431,7 +432,12 @@ footer{
    
 }
 .about{
-    margin:7rem 14rem;
+    margin-left:0rem;
+    margin-right:0rem;
+    padding-top:8rem;
+    padding-left:3rem;
+    padding-right:0rem;
+    margin-bottom:34rem;
     h2{
         margin-bottom:2rem;
         font-size:2rem;
@@ -443,7 +449,7 @@ footer{
 
     .about-img{
         object-fit:contain;
-        width:100%;
+        width:90%;
         height:30rem;
    }
    .about-text{
@@ -461,8 +467,9 @@ footer{
 
 }
 .work-section{
-    // height:100vh;
-    margin:2rem 3rem;
+    margin:0rem 0rem;
+    padding-left:6rem;
+    padding-right:0rem;
     padding-bottom:300px;
     h2{
         font-size:2rem;
@@ -533,9 +540,11 @@ footer{
    }
 }
 .contact{
-    // height:100vh;
-    margin:2rem 6rem;
-    // padding-top:50rem;
+    margin:0rem 0rem;
+    padding-right:0rem;
+    padding-left:5rem;
+    padding-top:2rem;
+    padding-bottom:2rem;
     h2{
         font-size:2rem;
         margin-bottom:2rem;
