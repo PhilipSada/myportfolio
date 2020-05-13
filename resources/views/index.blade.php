@@ -5,8 +5,8 @@
 
 <div class="hero">
     <p class="hero-intro">Hi, my name is</p>
-    <h2>Philip Sada</h2>
-    <h2>I create things for the web</h2>
+    <h2>Philip Sada.</h2>
+    <h2>I create things for the web.</h2>
 
     <div class="hero-text">
        <p>I'm a web developer who is very passionate about building <br> high quality web applications.</p>
@@ -21,11 +21,11 @@
    <div class="about-grid">
        <div class="about-text">
        <p> 
-           If you need a committed person that would get the job done, i'm the guy!. I work very hard to ensure all required projects are
+           If you need a committed person that would get the job done, i'm the guy! I work very hard to ensure all required projects are
            completed on time. Also, with my ability to pay attention to details, you can be rest assured that those projects would be of high quality.
            Furthermore, I'm really passionate about coding and I get excited when I explore new languages that would make
            me more efficient when executing a task.</p><br><br>
-           <p>Here are a few technologies, I've been working with recently:</p><br>
+           <p>Here are a few technologies I've been working with recently:</p><br>
            <ul>
                <li>HTML & (S)CSS</li>
                <li>Javascript(ES6+)</li>
@@ -50,7 +50,7 @@
            <div class="work-description">
                <p>An ecommerce website with a focus on menswear. The main features of this website include a shopping cart,
                 product filters to help users search for items, user registration and login functionality using JWTAuthentication, admin panel with middleware to restrict access, 
-                stripe payment integration and mailing system to send emails to customers if payment is successful</p>
+                stripe payment integration and mailing system to send emails to customers if payment is successful.</p>
                 <p>Technologies used:</p>
                 <ul>
                     <li>HTML & (S)CSS</li>
@@ -68,7 +68,7 @@
        <div class="work-text work-text-2">
            <h4 class="work-title"></h4>
            <div class="work-description">
-               <p>A furniture website. The main features include page and scroll animations, a contact form with validation, a mailing system to
+               <p>A website for a Furniture Manufacturing Company. The main features include page and scroll animations, a contact form with validation, a mailing system to
                  receive emails from customers once they have submitted the contact form.
                </p>
                <p>Technologies used:</p>
@@ -93,7 +93,7 @@
        <div class="work-text mobile-text">
         <h4 class="work-title"></h4>
         <div class="work-description">
-            <p>A furniture website. The main features include page and scroll animations, a contact form with validation, a mailing system to
+            <p>A website for a Furniture Manufacturing Company. The main features include page and scroll animations, a contact form with validation, a mailing system to
               receive emails from customers once they have submitted the contact form.
             </p>
             <p>Technologies used:</p>
