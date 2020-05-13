@@ -8,10 +8,22 @@
   z-index: 2;
 }
 
+@media (max-width: 599px) {
+  .navigate {
+    overflow-x: hidden !important;
+  }
+}
+
 .navigate .nav-links {
   display: flex;
   padding-right: 2rem;
   padding-top: 1rem;
+}
+
+@media (max-width: 599px) {
+  .navigate .nav-links {
+    display: none;
+  }
 }
 
 .navigate .nav-links ul {
@@ -57,6 +69,13 @@
   cursor: pointer;
 }
 
+@media (max-width: 599px) {
+  .navigate .hamburger {
+    display: block;
+    padding-right: 1rem;
+  }
+}
+
 .navigate .hamburger .line {
   height: 1px;
   width: 30px;
@@ -88,6 +107,15 @@
   background-color: rgba(255, 68, 0, 0.733);
   box-shadow: 0px 5px 5px rgba(255, 68, 0, 0.897);
   transform: translate(-100%, 0);
+}
+
+@media (max-width: 599px) {
+  .navigation-menu {
+    overflow-x: hidden !important;
+    width: 70%;
+    background-color: rgba(112, 128, 144, 0.582);
+    box-shadow: 0px 5px 5px rgba(112, 128, 144, 0.582);
+  }
 }
 
 .navigation-menu .navigation-close {
@@ -132,209 +160,6 @@
   color: rgba(0, 0, 0, 0.795);
 }
 
-.hero {
-  height: 100vh;
-  margin: 0rem 14rem;
-  font-family: 'Playfair Display', serif;
-}
-
-.hero .hero-intro {
-  padding-top: 10rem;
-  padding-bottom: 1.2rem;
-}
-
-.hero h2 {
-  font-size: 4.1rem;
-  letter-spacing: 4.5px;
-}
-
-.hero .hero-text {
-  padding-top: 3rem;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.hero .hero-text-1 {
-  display: none;
-  padding-top: 3rem;
-  font-size: 1.2rem;
-  line-height: 1.5;
-}
-
-.hero .hero-contact {
-  padding-top: 4rem;
-}
-
-.hero .hero-contact a {
-  text-decoration: none;
-  color: white;
-  border: 1px solid white;
-  padding: 1rem 3rem;
-  transition: background-color 0.5s ease;
-  cursor: pointer;
-}
-
-.hero .hero-contact a:hover {
-  background-color: rgba(112, 128, 144, 0.582);
-  border: 1px solid transparent;
-}
-
-.about {
-  height: 100vh;
-  margin: 7rem 14rem;
-}
-
-.about h2 {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  font-family: 'Playfair Display', serif;
-}
-
-.about .about-grid {
-  display: grid;
-  grid-row-gap: 3rem;
-  grid-column-gap: 0.7rem;
-  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
-}
-
-.about .about-img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 100%;
-  height: 30rem;
-}
-
-.about .about-text p {
-  font-size: 1rem;
-  line-height: 1.5;
-}
-
-.about .about-text ul {
-  padding-left: 1rem;
-}
-
-.about .about-text ul li {
-  line-height: 1.4;
-}
-
-.work-section {
-  margin: 2rem 14rem;
-  padding-bottom: 300px;
-}
-
-.work-section h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-  padding-bottom: 4rem;
-}
-
-.work-section .work-grid {
-  display: grid;
-  grid-row-gap: 5rem;
-  grid-column-gap: 0.7rem;
-  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
-}
-
-.work-section .work-text {
-  border: 1px solid transparent;
-  background-color: rgba(0, 0, 0, 0.281);
-}
-
-.work-section .work-text .work-description {
-  padding-left: 2rem;
-  padding-right: 1rem;
-}
-
-.work-section .work-text .work-description p {
-  line-height: 1.4;
-}
-
-.work-section .work-text .work-description ul li {
-  line-height: 1.4;
-}
-
-.work-section .mobile-text {
-  display: none;
-}
-
-.work-section .work-links {
-  padding-top: 4rem;
-  padding-left: 2rem;
-  padding-bottom: 3rem;
-}
-
-.work-section .work-links .github {
-  text-decoration: none;
-  padding: 1rem 2rem;
-  color: white;
-  background-color: rgba(112, 128, 144, 0.582);
-  transition: background-color 0.5s ease;
-}
-
-.work-section .work-links .github:hover {
-  background-color: rgba(112, 128, 144, 0.89);
-}
-
-.work-section .work-links .project {
-  text-decoration: none;
-  padding: 1rem 2rem;
-  color: white;
-  background-color: rgba(112, 128, 144, 0.582);
-  transition: background-color 0.5s ease;
-}
-
-.work-section .work-links .project:hover {
-  background-color: rgba(112, 128, 144, 0.89);
-}
-
-.work-section .work-image-container .work-img {
-  -o-object-fit: contain;
-     object-fit: contain;
-  width: 100%;
-  height: 30rem;
-}
-
-.contact {
-  margin: 2rem 14rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.contact h2 {
-  font-size: 2rem;
-  margin-bottom: 2rem;
-  font-family: 'Playfair Display', serif;
-  text-align: center;
-}
-
-.contact .card {
-  width: 150%;
-}
-
-.contact label {
-  font-size: 0.9rem;
-  padding-bottom: 0.7rem;
-  color: black;
-}
-
-.contact .card-header {
-  background-color: rgba(112, 128, 144, 0.582);
-}
-
-.contact .contact-submit {
-  text-decoration: none;
-  color: white;
-  padding: 0.9rem 2.3rem;
-  background-color: slategray;
-  border: 1px solid transparent;
-  transition: all .8s ease;
-  font-size: 0.8rem;
-}
-
 #thanks-page {
   height: 100vh;
   padding-top: 200px;
@@ -347,6 +172,24 @@
 .content-box h2 {
   font-size: 2rem;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 599px) {
+  .content-box h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .content-box h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .content-box h2 {
+    font-size: 2rem;
+  }
 }
 
 .back-to-home {
@@ -373,31 +216,248 @@ footer p {
   padding-top: 1rem;
 }
 
-@media (min-width: 0px) and (max-width: 370px) {
-  .navigate {
+@media (max-width: 599px) {
+  footer p {
+    font-size: 1rem;
+  }
+}
+
+.about {
+  height: 100vh;
+  margin: 7rem 14rem;
+}
+
+@media (max-width: 599px) {
+  .about {
     overflow-x: hidden !important;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    padding-top: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-bottom: 3rem;
+    height: 1000px;
   }
+}
 
-  .navigate .hamburger {
-    display: block;
-    padding-right: 1rem;
+@media (min-width: 600px) {
+  .about {
+    margin-top: 4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 10rem;
   }
+}
 
-  .navigate .nav-links {
-    display: none;
+@media (min-width: 900px) {
+  .about {
+    margin-top: 5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 8rem;
   }
+}
 
-  .navigation-menu {
-    overflow-x: hidden !important;
-    width: 70%;
-    background-color: rgba(112, 128, 144, 0.582);
-    box-shadow: 0px 5px 5px rgba(112, 128, 144, 0.582);
+@media (min-width: 1200px) {
+  .about {
+    margin-top: 7rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-bottom: 0rem;
   }
+}
 
-  .navigation-menu ul li a {
-    cursor: pointer;
+@media (min-width: 1500px) {
+  .about {
+    margin: 7rem 14rem;
   }
+}
 
+.about h2 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 599px) {
+  .about h2 {
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .about h2 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1500px) {
+  .about h2 {
+    text-align: left;
+  }
+}
+
+.about .about-grid {
+  display: grid;
+  grid-row-gap: 3rem;
+  grid-column-gap: 0.7rem;
+  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+}
+
+@media (max-width: 599px) {
+  .about .about-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 600px) {
+  .about .about-grid {
+    grid-row-gap: 3rem;
+    grid-column-gap: 0.7rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .about .about-image-container {
+    padding-left: 0rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .about .about-image-container {
+    margin-top: -4rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .about-image-container {
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .about .about-image-container {
+    margin-top: 0rem;
+  }
+}
+
+.about .about-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 30rem;
+  margin-left: 4rem;
+  margin-top: -0.5rem;
+  border-radius: 50%;
+  position: relative;
+}
+
+@media (max-width: 599px) {
+  .about .about-img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    transform: scale(0.6);
+    height: 30rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .about .about-img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    transform: scale(0.7);
+    height: 30rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .about .about-img {
+    transform: scale(0.8);
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .about-img {
+    transform: scale(1);
+  }
+}
+
+.about .about-cover {
+  background-color: pink;
+  height: 30rem;
+  position: absolute;
+  top: 0;
+  z-index: 4;
+}
+
+@media (max-width: 599px) {
+  .about .about-text {
+    width: 80%;
+  }
+}
+
+.about .about-text p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 599px) {
+  .about .about-text p {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 600px) {
+  .about .about-text p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 1200px) {
+  .about .about-text p {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+.about .about-text ul {
+  padding-left: 1rem;
+}
+
+.about .about-text ul li {
+  line-height: 1.4;
+}
+
+@media (max-width: 599px) {
+  .about .about-text ul li {
+    line-height: 1.4;
+    font-size: 0.8rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .about .about-text ul li {
+    line-height: 1.4;
+    font-size: 0.9rem;
+  }
+}
+
+.hero {
+  height: 100vh;
+  margin: 0rem 14rem;
+  font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 599px) {
   .hero {
     overflow-x: hidden !important;
     margin: 0rem 0rem;
@@ -406,88 +466,197 @@ footer p {
     padding-bottom: 8rem;
     height: 600px;
   }
+}
 
+@media (min-width: 600px) {
+  .hero {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 8rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero {
+    margin-left: 8rem;
+    margin-right: 8rem;
+    margin-bottom: 8rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .hero {
+    margin: 0rem 14rem;
+  }
+}
+
+.hero .hero-intro {
+  padding-top: 10rem;
+  padding-bottom: 1.2rem;
+}
+
+@media (max-width: 599px) {
+  .hero .hero-intro {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
   .hero .hero-intro {
     padding-top: 10rem;
     padding-bottom: 1.2rem;
   }
+}
 
+@media (min-width: 900px) {
+  .hero .hero-intro {
+    padding-top: 10rem;
+    padding-bottom: 1.2rem;
+  }
+}
+
+.hero h2 {
+  font-size: 4.1rem;
+  letter-spacing: 4.5px;
+}
+
+@media (max-width: 599px) {
   .hero h2 {
     font-size: 2.5rem;
     letter-spacing: 4.5px;
   }
+}
 
+@media (min-width: 600px) {
+  .hero h2 {
+    font-size: 3rem;
+    letter-spacing: 4.5px;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero h2 {
+    font-size: 3.5rem;
+    letter-spacing: 4.5px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .hero h2 {
+    font-size: 4.1rem;
+    letter-spacing: 4.5px;
+  }
+}
+
+.hero .hero-text {
+  padding-top: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 599px) {
   .hero .hero-text {
     display: none;
   }
+}
 
+@media (min-width: 600px) {
+  .hero .hero-text {
+    font-size: 1rem;
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero .hero-text {
+    display: block;
+    font-size: 1.2rem;
+  }
+}
+
+.hero .hero-text-1 {
+  display: none;
+  padding-top: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 599px) {
   .hero .hero-text-1 {
     display: none;
     padding-top: 3rem;
     font-size: 1.2rem;
     line-height: 1.5;
   }
+}
 
+@media (min-width: 600px) {
+  .hero .hero-text-1 {
+    display: block;
+    padding-top: 3rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero .hero-text-1 {
+    display: none;
+  }
+}
+
+.hero .hero-contact {
+  padding-top: 4rem;
+}
+
+@media (max-width: 599px) {
   .hero .hero-contact {
     padding-top: 4rem;
   }
+}
 
+@media (min-width: 600px) {
+  .hero .hero-contact {
+    padding-top: 4rem;
+  }
+}
+
+.hero .hero-contact a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem 3rem;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.hero .hero-contact a:hover {
+  background-color: rgba(112, 128, 144, 0.582);
+  border: 1px solid transparent;
+}
+
+@media (max-width: 599px) {
   .hero .hero-contact a {
     padding: 1rem 3rem;
   }
+}
 
-  .about {
-    margin-left: 0rem;
-    margin-right: 0rem;
-    padding-top: 2rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    margin-bottom: 5rem;
-    height: 1000px;
+@media (min-width: 600px) {
+  .hero .hero-contact a {
+    padding: 1rem 3rem;
   }
+}
 
-  .about h2 {
-    margin-bottom: 2rem;
-    font-size: 1.8rem;
-    text-align: center;
-  }
+.work-section {
+  margin-left: 14rem;
+  margin-right: 14rem;
+  margin-top: 1rem;
+  margin-bottom: -4rem;
+  padding-bottom: 300px;
+}
 
-  .about .about-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .about .about-image-container {
-    padding-left: 2rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 90%;
-    height: 30rem;
-  }
-
-  .about .about-text {
-    width: 80%;
-  }
-
-  .about .about-text p {
-    font-size: 0.8rem;
-    line-height: 1.5;
-  }
-
-  .about .about-text ul {
-    padding-left: 1rem;
-  }
-
-  .about .about-text ul li {
-    line-height: 1.4;
-    font-size: 0.8rem;
-  }
-
+@media (max-width: 599px) {
   .work-section {
     overflow-x: hidden !important;
     margin: 0rem 0rem;
@@ -495,87 +664,471 @@ footer p {
     padding-right: 0rem;
     padding-bottom: 300px;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section {
+    margin: 2rem 7rem;
+    padding-bottom: 300px;
+  }
+}
+
+@media (min-width: 900px) {
+  .work-section {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: -2rem;
+    margin-bottom: 0rem;
+    padding-bottom: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-section {
+    margin-left: 7rem;
+    margin-right: 7rem;
+    margin-top: -2rem;
+    margin-bottom: 0rem;
+    padding-bottom: 300px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section {
+    margin-left: 14rem;
+    margin-right: 14rem;
+    margin-top: -4rem;
+    margin-bottom: -4rem;
+    padding-bottom: 300px;
+  }
+}
+
+.work-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 599px) {
   .work-section h2 {
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.work-section .work-grid {
+  display: grid;
+  grid-row-gap: 5rem;
+  grid-column-gap: 0.7rem;
+  grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+}
+
+@media (max-width: 599px) {
   .work-section .work-grid {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section .work-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 900px) {
+  .work-section .work-grid {
+    display: grid;
+    grid-row-gap: 5rem;
+    grid-column-gap: 0.7rem;
+    grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-section .work-grid {
+    display: grid;
+    grid-row-gap: 5rem;
+    grid-column-gap: 0.7rem;
+    grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section .work-grid {
+    display: grid;
+    grid-row-gap: 5rem;
+    grid-column-gap: 0.7rem;
+    grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+  }
+}
+
+.work-section .work-text {
+  border: 1px solid transparent;
+  background-color: rgba(0, 0, 0, 0.281);
+}
+
+@media (max-width: 599px) {
   .work-section .work-text {
     width: 80%;
   }
+}
 
+.work-section .work-text .work-description {
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 599px) {
   .work-section .work-text .work-description {
     padding-left: 2rem;
     padding-right: 1rem;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section .work-text .work-description {
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+}
+
+.work-section .work-text .work-description p {
+  line-height: 1.4;
+}
+
+@media (max-width: 599px) {
   .work-section .work-text .work-description p {
     line-height: 1.4;
     font-size: 0.9rem;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section .work-text .work-description p {
+    line-height: 1.4;
+    font-size: 0.9rem;
+  }
+}
+
+.work-section .work-text .work-description ul li {
+  line-height: 1.4;
+}
+
+@media (max-width: 599px) {
   .work-section .work-text .work-description ul li {
     line-height: 1.4;
     font-size: 0.9rem;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section .work-text .work-description ul li {
+    line-height: 1.4;
+    font-size: 0.9rem;
+  }
+}
+
+.work-section .mobile-text {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .work-section .mobile-text {
+    display: block;
+    margin-top: -9.2rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .work-section .mobile-text {
+    display: block;
+    margin-top: -5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .work-section .mobile-text {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-section .mobile-text {
+    display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section .mobile-text {
+    display: none;
+  }
+}
+
+@media (max-width: 599px) {
   .work-section .work-text-1,
   .work-section .work-text-3 {
     margin-top: -9rem;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section .work-text-1,
+  .work-section .work-text-3 {
+    margin-top: -5rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .work-section .work-text-1,
+  .work-section .work-text-3 {
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-section .work-text-1,
+  .work-section .work-text-3 {
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section .work-text-1,
+  .work-section .work-text-3 {
+    margin-top: 0rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .work-section .work-text-2 {
+    display: none;
+  }
+}
+
+@media (min-width: 600px) {
+  .work-section .work-text-2 {
+    display: none;
+  }
+}
+
+@media (min-width: 900px) {
+  .work-section .work-text-2 {
+    display: block;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-section .work-text-2 {
+    display: block;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section .work-text-2 {
+    display: block;
+  }
+}
+
+.work-section .work-links {
+  padding-top: 4rem;
+  padding-left: 2rem;
+  padding-bottom: 3rem;
+}
+
+@media (max-width: 599px) {
   .work-section .work-links {
     padding-top: 4rem;
     padding-left: 2rem;
     padding-bottom: 3rem;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section .work-links {
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-bottom: 3rem;
+  }
+}
+
+.work-section .work-links .github {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgba(112, 128, 144, 0.582);
+  transition: background-color 0.5s ease;
+}
+
+@media (max-width: 599px) {
   .work-section .work-links .github {
-    text-decoration: none;
     padding: 1rem 1rem;
     font-size: 0.9rem;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section .work-links .github {
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .work-section .work-links .github {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-section .work-links .github {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section .work-links .github {
+    padding: 1rem 2rem;
+  }
+}
+
+.work-section .work-links .github:hover {
+  background-color: rgba(112, 128, 144, 0.89);
+}
+
+.work-section .work-links .project {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+  background-color: rgba(112, 128, 144, 0.582);
+  transition: background-color 0.5s ease;
+}
+
+@media (max-width: 599px) {
   .work-section .work-links .project {
-    text-decoration: none;
     padding: 1rem 1rem;
     font-size: 0.9rem;
   }
+}
 
-  .work-section .work-text-2 {
-    display: none;
+@media (min-width: 600px) {
+  .work-section .work-links .project {
+    padding: 1rem 1rem;
+    font-size: 0.9rem;
   }
+}
 
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -9.2rem;
+@media (min-width: 900px) {
+  .work-section .work-links .project {
+    padding: 1rem 2rem;
   }
+}
 
+@media (min-width: 1200px) {
+  .work-section .work-links .project {
+    padding: 1rem 2rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section .work-links .project {
+    padding: 1rem 2rem;
+  }
+}
+
+.work-section .work-links .project:hover {
+  background-color: rgba(112, 128, 144, 0.89);
+}
+
+@media (max-width: 599px) {
   .work-section .work-image-container {
     width: 80%;
   }
+}
 
+.work-section .work-image-container .work-img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100%;
+  height: 30rem;
+}
+
+@media (max-width: 599px) {
+  .work-section .work-image-container .work-img {
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 30rem;
+  }
+}
+
+@media (min-width: 600px) {
   .work-section .work-image-container .work-img {
     -o-object-fit: contain;
        object-fit: contain;
     width: 100%;
     height: 30rem;
   }
+}
 
+@media (max-width: 599px) {
   .work-section .image-container-1 {
     margin-top: -9rem;
   }
+}
 
+@media (min-width: 600px) {
+  .work-section .image-container-1 {
+    margin-top: -2rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .work-section .image-container-1 {
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .work-section .image-container-1 {
+    margin-top: 0rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section .image-container-1 {
+    margin-top: 0rem;
+  }
+}
+
+.contact {
+  margin-left: 14rem;
+  margin-right: 14rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+@media (max-width: 599px) {
   .contact {
     overflow-x: hidden !important;
     margin: 0rem 0rem;
@@ -584,1473 +1137,113 @@ footer p {
     padding-top: -2rem;
     padding-bottom: 2rem;
   }
-
-  .contact h2 {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-  }
-
-  .contact .card {
-    width: 100%;
-  }
-
-  .contact label {
-    font-size: 0.9rem;
-    padding-bottom: 0.7rem;
-    color: black;
-  }
-
-  .contact .contact-submit {
-    padding: 0.9rem 2.3rem;
-    font-size: 0.8rem;
-  }
-
-  .content-box h2 {
-    font-size: 1.8rem;
-  }
-
-  footer p {
-    font-size: 1rem;
-  }
 }
 
-@media (min-width: 371px) and (max-width: 500px) {
-  .navigate .hamburger {
-    display: block;
-    padding-right: 1rem;
-  }
-
-  .navigate .nav-links {
-    display: none;
-  }
-
-  .navigation-menu {
-    width: 70%;
-    background-color: rgba(112, 128, 144, 0.582);
-    box-shadow: 0px 5px 5px rgba(112, 128, 144, 0.582);
-  }
-
-  .navigation-menu ul li a {
-    cursor: pointer;
-  }
-
-  .hero {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  .hero .hero-intro {
-    padding-top: 10rem;
-    padding-bottom: 1.2rem;
-  }
-
-  .hero h2 {
-    font-size: 3rem;
-    letter-spacing: 4.5px;
-  }
-
-  .hero .hero-text {
-    display: none;
-  }
-
-  .hero .hero-text-1 {
-    display: block;
-    padding-top: 3rem;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .hero .hero-contact {
-    padding-top: 4rem;
-  }
-
-  .hero .hero-contact a {
-    padding: 1rem 3rem;
-  }
-
-  .about {
-    margin: 15rem 3rem;
-  }
-
-  .about h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .about .about-grid {
-    grid-row-gap: 3rem;
-    grid-column-gap: 0.7rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .about .about-text p {
-    font-size: 0.9rem;
-    line-height: 1.5;
-  }
-
-  .about .about-text ul {
-    padding-left: 1rem;
-  }
-
-  .about .about-text ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section {
-    margin: 2rem 3rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -9rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -9.2rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -9rem;
-  }
-
+@media (min-width: 600px) {
   .contact {
-    margin: 2rem 6rem;
-  }
-
-  .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .contact .card {
-    width: 100%;
-  }
-
-  .contact label {
-    font-size: 0.9rem;
-    padding-bottom: 0.7rem;
-    color: black;
-  }
-
-  .contact .contact-submit {
-    padding: 0.9rem 2.3rem;
-    font-size: 0.8rem;
-  }
-
-  .content-box h2 {
-    font-size: 1.8rem;
+    margin-left: 8rem;
   }
 }
 
-@media (min-width: 501px) and (max-width: 540px) {
-  .navigate .hamburger {
-    display: block;
-    padding-right: 1rem;
-  }
-
-  .navigate .nav-links {
-    display: none;
-  }
-
-  .navigation-menu {
-    width: 50%;
-    background-color: rgba(112, 128, 144, 0.582);
-    box-shadow: 0px 5px 5px rgba(112, 128, 144, 0.582);
-  }
-
-  .navigation-menu ul li a {
-    cursor: pointer;
-  }
-
-  .hero {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  .hero .hero-intro {
-    padding-top: 10rem;
-    padding-bottom: 1.2rem;
-  }
-
-  .hero h2 {
-    font-size: 3rem;
-    letter-spacing: 4.5px;
-  }
-
-  .hero .hero-text {
-    display: none;
-  }
-
-  .hero .hero-text-1 {
-    display: block;
-    padding-top: 3rem;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .hero .hero-contact {
-    padding-top: 4rem;
-  }
-
-  .hero .hero-contact a {
-    padding: 1rem 3rem;
-  }
-
-  .about {
-    margin: 10rem 3rem;
-  }
-
-  .about h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .about .about-grid {
-    grid-row-gap: 3rem;
-    grid-column-gap: 0.7rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .about .about-text p {
-    font-size: 0.9rem;
-    line-height: 1.5;
-  }
-
-  .about .about-text ul {
-    padding-left: 1rem;
-  }
-
-  .about .about-text ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section {
-    margin: 2rem 3rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -9rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -9.2rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -9rem;
-  }
-
+@media (min-width: 900px) {
   .contact {
-    margin: 2rem 6rem;
+    margin-left: 14rem;
+    margin-right: 14rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
   }
+}
 
+.contact h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+}
+
+@media (max-width: 599px) {
+  .contact h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 600px) {
   .contact h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
   }
+}
 
+.contact .card {
+  width: 150%;
+}
+
+@media (max-width: 599px) {
   .contact .card {
     width: 100%;
   }
+}
 
+@media (min-width: 600px) {
+  .contact .card {
+    width: 150%;
+  }
+}
+
+@media (min-width: 900px) {
+  .contact .card {
+    width: 150%;
+  }
+}
+
+.contact label {
+  font-size: 0.9rem;
+  padding-bottom: 0.7rem;
+  color: black;
+}
+
+@media (max-width: 599px) {
   .contact label {
     font-size: 0.9rem;
     padding-bottom: 0.7rem;
     color: black;
   }
-
-  .contact .contact-submit {
-    padding: 0.9rem 2.3rem;
-    font-size: 0.8rem;
-  }
-
-  .content-box h2 {
-    font-size: 1.8rem;
-  }
 }
 
-@media (min-width: 541px) and (max-width: 767px) {
-  .navigate .hamburger {
-    display: block;
-    padding-right: 1rem;
-  }
-
-  .navigate .nav-links {
-    display: none;
-  }
-
-  .navigation-menu {
-    width: 50%;
-    background-color: rgba(112, 128, 144, 0.582);
-    box-shadow: 0px 5px 5px rgba(112, 128, 144, 0.582);
-  }
-
-  .navigation-menu ul li a {
-    cursor: pointer;
-  }
-
-  .hero {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  .hero .hero-intro {
-    padding-top: 10rem;
-    padding-bottom: 1.2rem;
-  }
-
-  .hero h2 {
-    font-size: 3rem;
-    letter-spacing: 4.5px;
-  }
-
-  .hero .hero-text {
-    display: none;
-  }
-
-  .hero .hero-text-1 {
-    display: block;
-    padding-top: 3rem;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .hero .hero-contact {
-    padding-top: 4rem;
-  }
-
-  .hero .hero-contact a {
-    padding: 1rem 3rem;
-  }
-
-  .about {
-    margin-top: 8rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 17rem;
-  }
-
-  .about h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .about .about-grid {
-    grid-row-gap: 3rem;
-    grid-column-gap: 0.7rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .about .about-text p {
-    font-size: 0.9rem;
-    line-height: 1.5;
-  }
-
-  .about .about-text ul {
-    padding-left: 1rem;
-  }
-
-  .about .about-text ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section {
-    margin: 2rem 3rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -5rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -5rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -9rem;
-  }
-
-  .contact {
-    margin: 2rem 6rem;
-  }
-
-  .contact h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-  }
-
-  .contact .card {
-    width: 100%;
-  }
-
+@media (min-width: 600px) {
   .contact label {
     font-size: 0.9rem;
     padding-bottom: 0.7rem;
     color: black;
   }
+}
 
+.contact .card-header {
+  background-color: rgba(112, 128, 144, 0.582);
+}
+
+.contact .contact-submit {
+  text-decoration: none;
+  color: white;
+  padding: 0.9rem 2.3rem;
+  background-color: slategray;
+  border: 1px solid transparent;
+  transition: all .8s ease;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 599px) {
   .contact .contact-submit {
     padding: 0.9rem 2.3rem;
     font-size: 0.8rem;
   }
-
-  .content-box h2 {
-    font-size: 1.8rem;
-  }
 }
 
-@media (min-width: 768px) and (max-width: 900px) {
-  .hero {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  .hero .hero-intro {
-    padding-top: 10rem;
-    padding-bottom: 1.2rem;
-  }
-
-  .hero h2 {
-    font-size: 3rem;
-    letter-spacing: 4.5px;
-  }
-
-  .hero .hero-text {
-    font-size: 1rem;
-  }
-
-  .hero .hero-contact {
-    padding-top: 4rem;
-  }
-
-  .hero .hero-contact a {
-    padding: 1rem 3rem;
-  }
-
-  .about {
-    margin-top: 8rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-bottom: 17rem;
-  }
-
-  .about h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .about .about-grid {
-    grid-row-gap: 3rem;
-    grid-column-gap: 0.7rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .about .about-text p {
-    font-size: 0.9rem;
-    line-height: 1.5;
-  }
-
-  .about .about-text ul {
-    padding-left: 1rem;
-  }
-
-  .about .about-text ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section {
-    margin: 2rem 3rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -4.8rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -4.8rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -9rem;
-  }
-
-  .content-box h2 {
-    font-size: 1.8rem;
-  }
-}
-
-@media (min-width: 901px) and (max-width: 991px) {
-  .hero {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  .hero .hero-intro {
-    padding-top: 10rem;
-    padding-bottom: 1.2rem;
-  }
-
-  .hero h2 {
-    font-size: 3rem;
-    letter-spacing: 4.5px;
-  }
-
-  .hero .hero-text {
-    display: none;
-  }
-
-  .hero .hero-text-1 {
-    display: block;
-    padding-top: 3rem;
-    font-size: 1rem;
-    line-height: 1.5;
-  }
-
-  .hero .hero-contact {
-    padding-top: 4rem;
-  }
-
-  .hero .hero-contact a {
-    padding: 1rem 3rem;
-  }
-
-  .about {
-    margin-top: 7rem;
-    margin-left: 14rem;
-    margin-right: 14rem;
-    margin-bottom: 20rem;
-  }
-
-  .about h2 {
-    margin-bottom: 2rem;
-    font-size: 2rem;
-    text-align: center;
-  }
-
-  .about .about-grid {
-    grid-row-gap: 3rem;
-    grid-column-gap: 0.7rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 90%;
-    height: 30rem;
-  }
-
-  .about .about-text p {
-    font-size: 0.9rem;
-    line-height: 1.5;
-  }
-
-  .about .about-text ul {
-    padding-left: 1rem;
-  }
-
-  .about .about-text ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section {
-    margin: 2rem 7rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -3.4rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -3.4rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -2rem;
-  }
-
-  .content-box h2 {
-    font-size: 1.8rem;
-  }
-}
-
-@media (min-width: 992px) and (max-width: 1099px) {
-  .hero {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  .hero .hero-intro {
-    padding-top: 10rem;
-    padding-bottom: 1.2rem;
-  }
-
-  .hero h2 {
-    font-size: 3rem;
-    letter-spacing: 4.5px;
-  }
-
-  .hero .hero-text {
-    font-size: 1rem;
-  }
-
-  .hero .hero-contact {
-    padding-top: 4rem;
-  }
-
-  .hero .hero-contact a {
-    padding: 1rem 3rem;
-  }
-
-  .about {
-    margin-top: 7rem;
-    margin-left: 14rem;
-    margin-right: 14rem;
-    margin-bottom: 20rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 90%;
-    height: 30rem;
-  }
-
-  .work-section {
-    margin: 2rem 7rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -2.2rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -2.2rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -2rem;
-  }
-}
-
-@media (min-width: 1100px) and (max-width: 1119px) {
-  .hero {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  .hero .hero-intro {
-    padding-top: 10rem;
-    padding-bottom: 1.2rem;
-  }
-
-  .hero h2 {
-    font-size: 3.2rem;
-    letter-spacing: 4.5px;
-  }
-
-  .hero .hero-text {
-    font-size: 1.2rem;
-  }
-
-  .hero .hero-contact {
-    padding-top: 4rem;
-  }
-
-  .hero .hero-contact a {
-    padding: 1rem 3rem;
-  }
-
-  .hero {
-    margin-left: 8rem;
-    margin-right: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  .hero .hero-intro {
-    padding-top: 10rem;
-    padding-bottom: 1.2rem;
-  }
-
-  .hero h2 {
-    font-size: 3rem;
-    letter-spacing: 4.5px;
-  }
-
-  .hero .hero-text {
-    font-size: 1rem;
-  }
-
-  .hero .hero-contact {
-    padding-top: 4rem;
-  }
-
-  .hero .hero-contact a {
-    padding: 1rem 3rem;
-  }
-
-  .about {
-    margin-top: 7rem;
-    margin-left: 14rem;
-    margin-right: 14rem;
-    margin-bottom: 20rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 90%;
-    height: 30rem;
-  }
-
-  .work-section {
-    margin: 2rem 7rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -1.8rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -1.8rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -2rem;
-  }
-}
-
-@media (min-width: 1120px) and (max-width: 1199px) {
-  .about {
-    margin-top: 9rem;
-    margin-left: 14rem;
-    margin-right: 14rem;
-    margin-bottom: 20rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 90%;
-    height: 30rem;
-  }
-
-  .work-section {
-    margin: 2rem 9rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -1.5rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -1.5rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -2rem;
-  }
-}
-
-@media (min-width: 1200px) and (max-width: 1290px) {
-  .about {
-    margin-top: 9rem;
-    margin-left: 14rem;
-    margin-right: 14rem;
-    margin-bottom: 20rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 90%;
-    height: 30rem;
-  }
-
-  .work-section {
-    margin: 2rem 14rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -1.5rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -1.5rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -2rem;
-  }
-}
-
-@media (min-width: 1300px) and (max-width: 1399px) {
-  .about {
-    margin-top: 9rem;
-    margin-left: 14rem;
-    margin-right: 14rem;
-    margin-bottom: 9rem;
-  }
-
-  .about .about-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 90%;
-    height: 30rem;
-  }
-
-  .work-section {
-    margin: 2rem 14rem;
-    padding-bottom: 300px;
-  }
-
-  .work-section h2 {
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    padding-bottom: 4rem;
-  }
-
-  .work-section .work-grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-  }
-
-  .work-section .work-text .work-description {
-    padding-left: 2rem;
-    padding-right: 1rem;
-  }
-
-  .work-section .work-text .work-description p {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text .work-description ul li {
-    line-height: 1.4;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-1,
-  .work-section .work-text-3 {
-    margin-top: -1.5rem;
-  }
-
-  .work-section .work-links {
-    padding-top: 4rem;
-    padding-left: 2rem;
-    padding-bottom: 3rem;
-  }
-
-  .work-section .work-links .github {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-links .project {
-    text-decoration: none;
-    padding: 1rem 1rem;
-    font-size: 0.9rem;
-  }
-
-  .work-section .work-text-2 {
-    display: none;
-  }
-
-  .work-section .mobile-text {
-    display: block;
-    margin-top: -1.5rem;
-  }
-
-  .work-section .work-image-container .work-img {
-    -o-object-fit: contain;
-       object-fit: contain;
-    width: 100%;
-    height: 30rem;
-  }
-
-  .work-section .image-container-1 {
-    margin-top: -2rem;
+@media (min-width: 600px) {
+  .contact .contact-submit {
+    padding: 0.9rem 2.3rem;
+    font-size: 0.8rem;
   }
 }
 

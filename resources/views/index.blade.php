@@ -37,6 +37,7 @@
        <div class="about-image-container">
            <img src="/images/profile.jpg" alt="profile-picture" class="about-img">
        </div>
+       {{-- <div class="about-cover"></div> --}}
   </div>
 </div>
 <div class="work-section" id="work">

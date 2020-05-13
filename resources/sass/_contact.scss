@@ -1,0 +1,142 @@
+.contact{
+    margin-left:14rem;
+    margin-right:14rem;
+    margin-top:1rem;
+    margin-bottom:2rem;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+    @include mediaQuery(phone){
+        overflow-x: hidden !important;
+        margin:0rem 0rem;
+        padding-right:2rem;
+        padding-left:2rem;
+        padding-top:-2rem;
+        padding-bottom:2rem;
+    }
+    @include mediaQuery(tablet-portrait-up){
+        margin-left:8rem;
+        // margin-right:12rem;
+        // margin-top:-3rem;
+        // margin-bottom:2rem;
+    }
+    @include mediaQuery(tablet-landscape-up){
+        margin-left:14rem;
+        margin-right:14rem;
+        margin-top:0rem;
+        margin-bottom:2rem;
+    }
+    @include mediaQuery(desktop-up){
+       
+    }
+    @include mediaQuery(big-desktop-up){
+       
+    }
+    h2{
+        font-size:2rem;
+        margin-bottom:2rem;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        @include mediaQuery(phone){
+            font-size:1.8rem;
+            margin-bottom:2rem;
+        }
+        @include mediaQuery(tablet-portrait-up){
+            font-size:2rem;
+            margin-bottom:2rem;
+        }
+        @include mediaQuery(tablet-landscape-up){
+           
+        }
+        @include mediaQuery(tablet-landscape-up){
+           
+        }
+        @include mediaQuery(desktop-up){
+           
+        }
+        @include mediaQuery(big-desktop-up){
+           
+        }
+    }
+    .card{
+        width:150%;
+        @include mediaQuery(phone){
+            width:100%;
+        }
+        @include mediaQuery(tablet-portrait-up){
+            width:150%;
+        }
+        @include mediaQuery(tablet-landscape-up){
+           
+        }
+        @include mediaQuery(tablet-landscape-up){
+            width:150%;
+        }
+        @include mediaQuery(desktop-up){
+           
+        }
+        @include mediaQuery(big-desktop-up){
+           
+        }
+    }
+    label{
+        font-size:0.9rem;
+        padding-bottom:0.7rem;
+        color:black;
+        @include mediaQuery(phone){
+            font-size:0.9rem;
+            padding-bottom:0.7rem;
+            color:black;
+        }
+        @include mediaQuery(tablet-portrait-up){
+            font-size:0.9rem;
+            padding-bottom:0.7rem;
+            color:black;
+        }
+        @include mediaQuery(tablet-landscape-up){
+           
+        }
+        @include mediaQuery(tablet-landscape-up){
+           
+        }
+        @include mediaQuery(desktop-up){
+           
+        }
+        @include mediaQuery(big-desktop-up){
+           
+        }
+    }
+    .card-header{
+        background-color:rgba(112, 128, 144, 0.582);
+    }
+    .contact-submit{
+        text-decoration: none;
+        color:white;
+        padding:0.9rem 2.3rem;
+        background-color:rgb(112, 128, 144);
+        border:1px solid transparent;
+        transition:all .8s ease;
+        font-size:0.8rem;
+        @include mediaQuery(phone){
+            padding:0.9rem 2.3rem;
+            font-size:0.8rem;
+        }
+        @include mediaQuery(tablet-portrait-up){
+            padding:0.9rem 2.3rem;
+            font-size:0.8rem;
+        }
+        @include mediaQuery(tablet-landscape-up){
+           
+        }
+        @include mediaQuery(tablet-landscape-up){
+           
+        }
+        @include mediaQuery(desktop-up){
+           
+        }
+        @include mediaQuery(big-desktop-up){
+           
+        }
+     }
+}
