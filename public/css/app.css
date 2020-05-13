@@ -404,6 +404,7 @@ footer p {
     padding-left: 2rem;
     padding-right: 2rem;
     padding-bottom: 8rem;
+    height: 600px;
   }
 
   .hero .hero-intro {
@@ -412,7 +413,7 @@ footer p {
   }
 
   .hero h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     letter-spacing: 4.5px;
   }
 

@@ -48,7 +48,7 @@
        <div class="work-text work-text-1">
            <h4 class="work-title"></h4>
            <div class="work-description">
-               <p>An ecommerce website with a focus on menswear. Some of the main features of this website include a shopping cart,
+               <p>An ecommerce website with a focus on menswear. The main features of this website include a shopping cart,
                 product filters to help users search for items, user registration and login functionality using JWTAuthentication, admin panel with middleware to restrict access, 
                 stripe payment integration and mailing system to send emails to customers if payment is successful</p>
                 <p>Technologies used:</p>
@@ -68,7 +68,7 @@
        <div class="work-text work-text-2">
            <h4 class="work-title"></h4>
            <div class="work-description">
-               <p>A furniture website. Some of the main features include page and scroll animations, a contact form with validation, a mailing system to
+               <p>A furniture website. The main features include page and scroll animations, a contact form with validation, a mailing system to
                  receive emails from customers once they have submitted the contact form.
                </p>
                <p>Technologies used:</p>
@@ -93,7 +93,7 @@
        <div class="work-text mobile-text">
         <h4 class="work-title"></h4>
         <div class="work-description">
-            <p>A furniture website. Some of the main features include page and scroll animations, a contact form with validation, a mailing system to
+            <p>A furniture website. The main features include page and scroll animations, a contact form with validation, a mailing system to
               receive emails from customers once they have submitted the contact form.
             </p>
             <p>Technologies used:</p>
@@ -118,7 +118,7 @@
        <div class="work-text work-text-3">
            <h4 class="work-title"></h4>
            <div class="work-description">
-               <p>A fast-food restaurant website. Some of the main features include page animations, a contact form with validation, a mailing system to receive
+               <p>A fast-food restaurant website. The main features include page animations, a contact form with validation, a mailing system to receive
                   emails when a customer submits the contact form, an offers form where customers could fill in their details 
                   so that they could receive the latest offers from the company, a reservation form to enable customers reserve a table and the company save 
                   the customer information in the database</p>
