@@ -9,10 +9,14 @@
     flex-direction:column;
     @include mediaQuery(phone){
         overflow-x: hidden !important;
-        margin:0rem 0rem;
+        // margin:0rem 0rem;
+        margin-left:0rem;
+        margin-right:0rem;
+        margin-top:-5rem;
+        margin-bottom:0rem;
         padding-right:2rem;
         padding-left:2rem;
-        padding-top:-2rem;
+        padding-top:-8rem;
         padding-bottom:2rem;
     }
     @include mediaQuery(tablet-portrait-up){
