@@ -828,6 +828,12 @@ footer p {
   }
 }
 
+@media (min-width: 1500px) {
+  .work-section .work-text .work-description p {
+    font-size: 1rem;
+  }
+}
+
 .work-section .work-text .work-description ul li {
   line-height: 1.4;
 }
@@ -843,6 +849,12 @@ footer p {
   .work-section .work-text .work-description ul li {
     line-height: 1.4;
     font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .work-section .work-text .work-description ul li {
+    font-size: 1rem;
   }
 }
 
