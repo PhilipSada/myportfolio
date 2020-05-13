@@ -5,7 +5,7 @@
         overflow-x: hidden !important;
         margin-left:0rem;
         margin-right:0rem;
-        // margin-top:-1rem;
+        margin-top:2rem;
         padding-top:2rem;
         padding-left:0rem;
         padding-right:0rem;
@@ -13,19 +13,19 @@
         height:1000px;
     }
     @include mediaQuery(tablet-portrait-up){
-        margin-top:4rem;
+        margin-top:3rem;
         margin-left:7rem;
         margin-right:7rem;
         margin-bottom:10rem;
     }
     @include mediaQuery(tablet-landscape-up){
-        margin-top:5rem;
+        margin-top:4rem;
         margin-left:7rem;
         margin-right:7rem;
         margin-bottom:8rem;
     }
     @include mediaQuery(desktop-up){
-        margin-top:7rem;
+        margin-top:6rem;
         margin-left:7rem;
         margin-right:7rem;
         margin-bottom:0rem;
@@ -75,12 +75,15 @@
         @include mediaQuery(tablet-portrait-up){
             grid-row-gap:3rem;
             grid-column-gap:0.7rem;
+            // display:flex;
+            // align-items:center;
+            // justify-content: center;
         }
         @include mediaQuery(tablet-landscape-up){
-           
-        }
-        @include mediaQuery(tablet-landscape-up){
-           
+            display:flex;
+            align-items:center;
+            justify-content: center;
+            // flex-direction: column;
         }
         @include mediaQuery(desktop-up){
            
@@ -160,7 +163,7 @@
             
             }
             @include mediaQuery(tablet-landscape-up){
-            
+                width:100%;
             }
             @include mediaQuery(tablet-landscape-up){
             
