@@ -1,11 +1,29 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}"  prefix="og: http://ogp.me/ns#">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Philip Sada</title>
-
+        <meta name="description" content="passionate about building high quality web applications">
+        {{-- <meta name="robots" content="follow,index,max-snippet:-1,max-video-preview:-1,max-image-preview:large"> --}}
+        <meta name="image_src" content="https://philipsada.com/images/preview.png">
+        <meta name="image_url" content="https://philipsada.com/images/preview.png">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Philip Sada | Web Developer">
+        <meta property="og:image" content="https://philipsada.com/images/preview.png">            
+        <meta property="og:image:type" content="image/png">        
+        <meta property="og:image:width" content="1897">        
+        <meta property="og:image:height" content="932">        
+        <meta property="og:description" content="passionate about building high quality web applications">
+        <meta property="og:url" content="https://philipsada.com/">
+        <meta property="og:site_name" content="Philip Sada | Web Developer">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Philip Sada | Web Developer">
+        <meta name="twitter:description" content="passionate about building high quality web applications">
+           <!-- CSRF Token -->
+        <meta name="csrf-token" content="{{ csrf_token() }}">
          <!-- Styles -->
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
          <link href="/css/app.css" rel="stylesheet">
