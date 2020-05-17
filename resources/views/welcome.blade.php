@@ -14,8 +14,8 @@
         <meta property="og:title" content="Philip Sada | Web Developer">
         <meta property="og:image" content="https://philipsada.com/images/preview.png">            
         <meta property="og:image:type" content="image/png">        
-        <meta property="og:image:width" content="1897">        
-        <meta property="og:image:height" content="932">        
+        <meta property="og:image:width" content="1200">        
+        <meta property="og:image:height" content="630">        
         <meta property="og:description" content="passionate about building high quality web applications">
         <meta property="og:url" content="https://philipsada.com/">
         <meta property="og:site_name" content="Philip Sada | Web Developer">
