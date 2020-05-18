@@ -50,9 +50,9 @@
             <div class="navigation-menu">
                 <div class="navigation-close">Close</div>
                  <ul>
-                    <li><a class="about-link">About</a></li>
-                    <li><a class="work-link">Work</a></li>
-                    <li><a class="contact-link">Contact</a></li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
                     <li><a  href="/files/PHILIPSADACV.pdf" target="_blank" class="resume">Resume</a></li>
                  </ul>
             </div>
