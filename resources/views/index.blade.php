@@ -85,11 +85,11 @@
            </div>
            <div class="work-links">
                <a href="https://github.com/PhilipSada/FURNITUREBARN" class="github" target="_blank">Github</a>
-               <a href="https://furniturebarnng.com" class="project" target="_blank">View Project</a>
+               <a href="http://furniturebarn.herokuapp.com/" class="project" target="_blank">View Project</a>
            </div>
        </div>
        <div class="work-image-container image-container-2">
-           <a href="https://furniturebarnng.com" target="_blank"><img src="/images/furniture.png" class="work-img" alt="project-1"></a>
+           <a href="http://furniturebarn.herokuapp.com/" target="_blank"><img src="/images/furniture.png" class="work-img" alt="project-1"></a>
        </div>
        <div class="work-text mobile-text">
         <h4 class="work-title"></h4>
