@@ -85,11 +85,11 @@
            </div>
            <div class="work-links">
                <a href="https://github.com/PhilipSada/FURNITUREBARN" class="github" target="_blank">Github</a>
-               <a href="http://furniturebarn.herokuapp.com/" class="project" target="_blank">View Project</a>
+               <a href="https://furniturebarn.herokuapp.com/" class="project" target="_blank">View Project</a>
            </div>
        </div>
        <div class="work-image-container image-container-2">
-           <a href="http://furniturebarn.herokuapp.com/" target="_blank"><img src="/images/furniture.png" class="work-img" alt="project-1"></a>
+           <a href="https://furniturebarn.herokuapp.com/" target="_blank"><img src="/images/furniture.png" class="work-img" alt="project-1"></a>
        </div>
        <div class="work-text mobile-text">
         <h4 class="work-title"></h4>
@@ -110,11 +110,11 @@
         </div>
         <div class="work-links">
             <a href="https://github.com/PhilipSada/FURNITUREBARN" class="github" target="_blank">Github</a>
-            <a href="https://furniturebarnng.com" class="project" target="_blank">View Project</a>
+            <a href="https://furniturebarn.herokuapp.com/" class="project" target="_blank">View Project</a>
         </div>
     </div>
        <div class="work-image-container image-container-3">
-           <a href="https://www.yummiep.com" target="_blank"><img src="/images/restaurant.png" class="work-img" alt="project-1"></a>
+           <a href="https://yummiep.herokuapp.com/" target="_blank"><img src="/images/restaurant.png" class="work-img" alt="project-1"></a>
        </div>
        <div class="work-text work-text-3">
            <h4 class="work-title"></h4>
@@ -136,7 +136,7 @@
            </div>
            <div class="work-links">
                <a href="https://github.com/PhilipSada/YUMMYP" class="github" target="_blank">Github</a>
-               <a href="https://www.yummiep.com" class="project" target="_blank">View Project</a>
+               <a href="https://yummiep.herokuapp.com/" class="project" target="_blank">View Project</a>
            </div>
        </div>
    </div>
