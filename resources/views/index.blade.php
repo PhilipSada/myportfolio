@@ -143,7 +143,15 @@
 </div>
 <div class="contact" id="contact-me">
    <h2>Get In Touch</h2>
+
    <div class="row">
+        <div class="col-md-12 text-center">
+            <p>If you have any new opportunities for me or just want to ask me a question, my inbox is always open and I will 
+                get back to you as soon as possible </p>
+            <div class="contact-btn"><a href="mailto:sadaphillip@gmail.com" class="contact-link">Get In Touch</a></div>
+        </div>
+   </div>
+   {{-- <div class="row">
        <div class="col-md-8">
            <div class="card">
                <h5 class="card-header enquiry-header"></h5>
@@ -230,7 +238,7 @@
                </form>
                </div>
            </div>
-       </div>
+       </div> --}}
    
    
 

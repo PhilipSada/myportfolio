@@ -1274,6 +1274,73 @@ footer p {
   }
 }
 
+.contact p {
+  line-height: 1.4;
+}
+
+@media (max-width: 599px) {
+  .contact p {
+    line-height: 1.4;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .contact p {
+    line-height: 1.4;
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .contact p {
+    font-size: 1rem;
+  }
+}
+
+.contact .contact-btn {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 599px) {
+  .contact .contact-btn {
+    padding-top: 4rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .contact .contact-btn {
+    padding-top: 4rem;
+  }
+}
+
+.contact .contact-btn a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem 3rem;
+  transition: background-color 0.5s ease;
+  cursor: pointer;
+}
+
+.contact .contact-btn a:hover {
+  background-color: rgba(112, 128, 144, 0.582);
+  border: 1px solid transparent;
+}
+
+@media (max-width: 599px) {
+  .contact .contact-btn a {
+    padding: 1rem 3rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .contact .contact-btn a {
+    padding: 1rem 3rem;
+  }
+}
+
 * {
   padding: 0;
   margin: 0;

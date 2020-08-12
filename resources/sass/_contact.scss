@@ -144,4 +144,56 @@
            
         }
      }
+     p{
+        line-height:1.4;
+        @include mediaQuery(phone){
+         line-height:1.4;
+         font-size:0.9rem;
+        }
+        @include mediaQuery(tablet-portrait-up){
+         line-height:1.4;
+         font-size:0.9rem;
+     }
+     @include mediaQuery(tablet-landscape-up){
+        
+     }
+     @include mediaQuery(tablet-landscape-up){
+        
+     }
+     @include mediaQuery(desktop-up){
+        
+     }
+     @include mediaQuery(big-desktop-up){
+         font-size:1rem;
+     }
+    }
+     .contact-btn{
+        padding-top:4rem;
+        padding-bottom:4rem;
+        @include mediaQuery(phone){
+           padding-top:4rem;
+        }
+        @include mediaQuery(tablet-portrait-up){
+            padding-top:4rem;
+        }
+        a{
+            text-decoration:none;
+            color:white;
+            border:1px solid white;
+            padding:1rem 3rem;
+            transition:background-color 0.5s ease;
+            cursor: pointer;
+            &:hover{
+                background-color:rgba(112, 128, 144, 0.582);
+                border:1px solid transparent;
+            }
+            @include mediaQuery(phone){
+                padding:1rem 3rem;
+            }
+            @include mediaQuery(tablet-portrait-up){
+                padding:1rem 3rem;
+            }
+
+        }
+    }
 }
