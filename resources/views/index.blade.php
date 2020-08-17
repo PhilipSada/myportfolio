@@ -44,14 +44,12 @@
    <h2>Things I've Built</h2>
    <div class="work-grid">
        <div class="work-image-container image-container-1">
-           <a href="https://freshmann.net" target="_blank"><img src="/images/ecommerce.png" class="work-img" alt="project-1"></a>
+           <a href="https://phill-fitness.herokuapp.com/" target="_blank"><img src="/images/fitness.png" class="work-img" alt="project-1"></a>
        </div>
        <div class="work-text work-text-1">
            <h4 class="work-title"></h4>
            <div class="work-description">
-               <p>An ecommerce website with a focus on menswear. The main features of this website include a shopping cart,
-                product filters to help users search for items, user registration and login functionality using JWTAuthentication, admin panel with middleware to restrict access, 
-                stripe payment integration and mailing system to send emails to customers if payment is successful.</p>
+               <p>A fitness website. The main features of this website include filters to help users search for available gym classes based on the company's location and a form for users to get registered as members.</p>
                 <p>Technologies used:</p>
                 <ul>
                     <li>HTML & (S)CSS</li>
@@ -62,8 +60,8 @@
                 </ul>
            </div>
            <div class="work-links">
-               <a href="https://github.com/PhilipSada/FRESHMANN-E-Commerce" class="github" target="_blank">Github</a>
-               <a href="https://freshmann.net" class="project" target="_blank">View Project</a>
+               <a href="https://github.com/PhilipSada/fitness" class="github" target="_blank">Github</a>
+               <a href="https://phill-fitness.herokuapp.com/" class="project" target="_blank">View Project</a>
            </div>
        </div>
        <div class="work-text work-text-2">
