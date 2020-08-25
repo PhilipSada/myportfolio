@@ -44,73 +44,70 @@
    <h2>Things I've Built</h2>
    <div class="work-grid">
        <div class="work-image-container image-container-1">
-           <a href="https://phill-fitness.herokuapp.com/" target="_blank"><img src="/images/fitness.png" class="work-img" alt="project-1"></a>
+           <a href="https://furniturebarn.herokuapp.com/" target="_blank"><img src="/images/furniture.png" class="work-img" alt="project-1"></a>
        </div>
        <div class="work-text work-text-1">
            <h4 class="work-title"></h4>
            <div class="work-description">
-               <p>A fitness website. The main features of this website include filters to help users search for available gym classes based on the company's location and a form for users to get registered as members.</p>
-                <p>Technologies used:</p>
-                <ul>
-                    <li>HTML & (S)CSS</li>
-                    <li>Javascript(ES6+)</li>
-                    <li>React</li>
-                    <li>PHP Laravel</li>
-                    <li>MYSQL</li>
-                </ul>
-           </div>
-           <div class="work-links">
-               <a href="https://github.com/PhilipSada/fitness" class="github" target="_blank">Github</a>
-               <a href="https://phill-fitness.herokuapp.com/" class="project" target="_blank">View Project</a>
-           </div>
-       </div>
-       <div class="work-text work-text-2">
-           <h4 class="work-title"></h4>
-           <div class="work-description">
-               <p>A website for a Furniture Manufacturing Company. The main features include page and scroll animations, a contact form with validation, a mailing system to
-                 receive emails from customers once they have submitted the contact form.
-               </p>
-               <p>Technologies used:</p>
-               <ul>
-                   <li>HTML & (S)CSS</li>
-                   <li>Javascript(ES6+)</li>
-                   <li>GSAP</li>
-                   <li>Barbajs</li>
-                   <li>Scroll Magic</li>
-                   <li>PHP Laravel</li>
-                   <li>MYSQL</li>
-               </ul>
+              <p>A website for a Furniture Manufacturing Company. The main features include page and scroll animations, a contact form with validation, a mailing system to
+                receive emails from customers once they have submitted the contact form.
+              </p>
+              <p>Technologies used:</p>
+              <ul>
+                  <li>HTML & (S)CSS</li>
+                  <li>Javascript(ES6+)</li>
+                  <li>GSAP</li>
+                  <li>Barbajs</li>
+                  <li>Scroll Magic</li>
+                  <li>PHP Laravel</li>
+                  <li>MYSQL</li>
+              </ul>
+               
            </div>
            <div class="work-links">
                <a href="https://github.com/PhilipSada/FURNITUREBARN" class="github" target="_blank">Github</a>
                <a href="https://furniturebarn.herokuapp.com/" class="project" target="_blank">View Project</a>
            </div>
        </div>
-       <div class="work-image-container image-container-2">
-           <a href="https://furniturebarn.herokuapp.com/" target="_blank"><img src="/images/furniture.png" class="work-img" alt="project-1"></a>
-       </div>
-       <div class="work-text mobile-text">
-        <h4 class="work-title"></h4>
-        <div class="work-description">
-            <p>A website for a Furniture Manufacturing Company. The main features include page and scroll animations, a contact form with validation, a mailing system to
-              receive emails from customers once they have submitted the contact form.
-            </p>
+       <div class="work-text work-text-2">
+           <h4 class="work-title"></h4>
+           <div class="work-description">
+            <p>A fitness website. The main features of this website include filters to help users search for available gym classes based on the company's location and a form for users to get registered as members.</p>
             <p>Technologies used:</p>
             <ul>
                 <li>HTML & (S)CSS</li>
                 <li>Javascript(ES6+)</li>
-                <li>GSAP</li>
-                <li>Barbajs</li>
-                <li>Scroll Magic</li>
+                <li>React</li>
                 <li>PHP Laravel</li>
                 <li>MYSQL</li>
             </ul>
-        </div>
-        <div class="work-links">
-            <a href="https://github.com/PhilipSada/FURNITUREBARN" class="github" target="_blank">Github</a>
-            <a href="https://furniturebarn.herokuapp.com/" class="project" target="_blank">View Project</a>
-        </div>
-    </div>
+           </div>
+           <div class="work-links">
+               <a href="https://github.com/PhilipSada/fitness" class="github" target="_blank">Github</a>
+               <a href="https://phill-fitness.herokuapp.com/" class="project" target="_blank">View Project</a>
+           </div>
+       </div>
+       <div class="work-image-container image-container-2">
+           <a href="https://phill-fitness.herokuapp.com/" target="_blank"><img src="/images/fitness.png" class="work-img" alt="project-1"></a>
+       </div>
+       <div class="work-text mobile-text">
+        <h4 class="work-title"></h4>
+        <div class="work-description">
+            <p>A fitness website. The main features of this website include filters to help users search for available gym classes based on the company's location and a form for users to get registered as members.</p>
+            <p>Technologies used:</p>
+            <ul>
+                <li>HTML & (S)CSS</li>
+                <li>Javascript(ES6+)</li>
+                <li>React</li>
+                <li>PHP Laravel</li>
+                <li>MYSQL</li>
+            </ul>
+           </div>
+           <div class="work-links">
+               <a href="https://github.com/PhilipSada/fitness" class="github" target="_blank">Github</a>
+               <a href="https://phill-fitness.herokuapp.com/" class="project" target="_blank">View Project</a>
+          </div>
+      </div>
        <div class="work-image-container image-container-3">
            <a href="https://yummiep.herokuapp.com/" target="_blank"><img src="/images/restaurant.png" class="work-img" alt="project-1"></a>
        </div>
