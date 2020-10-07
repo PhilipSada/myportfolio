@@ -270,7 +270,7 @@ footer p {
 
 @media (min-width: 1500px) {
   .about {
-    margin: 7rem 14rem;
+    margin: 7rem 9rem;
   }
 }
 
@@ -495,7 +495,11 @@ footer p {
 
 @media (min-width: 1500px) {
   .hero {
-    margin: 0rem 14rem;
+    margin: 0rem 9rem;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
   }
 }
 
@@ -522,6 +526,12 @@ footer p {
   .hero .hero-intro {
     padding-top: 10rem;
     padding-bottom: 1.2rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .hero .hero-intro {
+    padding-top: 0rem;
   }
 }
 
@@ -788,7 +798,7 @@ footer p {
     display: grid;
     grid-row-gap: 5rem;
     grid-column-gap: 0.7rem;
-    grid-template-columns: repeat(auto-fill, minmax(410px, 1fr));
+    grid-template-columns: repeat(2, 480px);
   }
 }
 

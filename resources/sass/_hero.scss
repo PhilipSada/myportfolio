@@ -21,7 +21,11 @@
         margin-bottom:8rem;
     }
     @include mediaQuery(big-desktop-up){
-        margin:0rem 14rem;
+        margin:0rem 9rem;
+        display: flex;
+        align-items:left;
+        justify-content: center;
+        flex-direction: column;
     }
     .hero-intro{
         padding-top:10rem;
@@ -38,6 +42,10 @@
         @include mediaQuery(tablet-landscape-up){
             padding-top:10rem;
             padding-bottom:1.2rem;
+           
+        }
+        @include mediaQuery(big-desktop-up){
+            padding-top:0rem;
            
         }
     }
