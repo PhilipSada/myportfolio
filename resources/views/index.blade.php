@@ -145,8 +145,8 @@
             </a>
         </div>
         <div class="col-md-4 mobile-project">
-            <a href="https://weddinghub.online/" target="_blank">
-                <img src="/images/wedding-app.jpg" class="other-project-img img-fluid"/>
+            <a href="https://www.cleanbeautyshop.com/" target="_blank">
+                <img src="/images/beautyself.png" class="other-project-img img-fluid"/>
             </a>
         </div>
         <div class="col-md-4 mobile-project" >
