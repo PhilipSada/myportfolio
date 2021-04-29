@@ -138,20 +138,20 @@
 </div>
 <div class="container mt-4 other-projects">
     <h2>Other Projects</h2>
-  <div class="row mt-5">
-        <div class="col-md-4">
+  <div class="row mt-5 justify-content-center align-items-center">
+        {{-- <div class="col-md-4">
             <a href="https://myfurniturebarn.com/" target="_blank">
             <img src="/images/myfurniturebarn1.jpg" class="other-project-img img-fluid"/>
             </a>
-        </div>
-        <div class="col-md-4 mobile-project">
+        </div>  --}}
+        <div class="col-md-6 mobile-project">
             <a href="https://www.cleanbeautyshop.com/" target="_blank">
-                <img src="/images/beautyself.png" class="other-project-img img-fluid"/>
+                <img src="/images/beautyself.png" class="other-project-img"/>
             </a>
         </div>
-        <div class="col-md-4 mobile-project" >
+        <div class="col-md-6 mobile-project" >
             <a href="https://scaleuplab.io/" target="_blank">
-                <img src="/images/scaleuplab.jpg" class="other-project-img img-fluid"/>
+                <img src="/images/scaleuplab.jpg" class="other-project-img"/>
             </a>
         </div>
   </div>

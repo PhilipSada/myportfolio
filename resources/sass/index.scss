@@ -153,9 +153,9 @@
     margin-bottom:10rem;
     
     .other-project-img{
-        // width:100%;
-        height:200px;
-        object-fit: contain;
+        width:100%;
+        height:250px;
+        object-fit: cover;
         @include mediaQuery(phone){
             width:100%;
          }
